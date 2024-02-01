@@ -96,7 +96,7 @@ function dcsGetPostsFtn($atts, $additonalArr=array()){
 }
 
 
-
+//Ajax_callback
 add_action("wp_ajax_dcsAjaxLoadMorePostsAjaxReq","dcsAjaxLoadMorePostsAjaxReq");
 add_action("wp_ajax_nopriv_dcsAjaxLoadMorePostsAjaxReq","dcsAjaxLoadMorePostsAjaxReq");
 function dcsAjaxLoadMorePostsAjaxReq(){
